@@ -23,6 +23,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       />
       <Statistics title="Upload stats" stats={data} />
       <Statistics stats={data} />
+      <FriendList friends={friends} />
     </App>
   </React.StrictMode>
 );
