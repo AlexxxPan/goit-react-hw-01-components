@@ -7,6 +7,7 @@ function getRandomHexColor() {
 }
 
 export const Statistics = ({ title, stats }) => (
+  
   <div className={styles.statisticsContainer}>
     <section className={styles.statistics}>
       {title && <h2 className={styles.title}>{title}</h2>}
